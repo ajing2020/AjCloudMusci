@@ -88,6 +88,14 @@ handlerScrollLower(){
     // 数据分页
     console.log('发送请求 网易暂时没有提供api');
 },
+
+// 跳转搜索界面
+    toSearch(){
+        wx.navigateTo({
+          url: '/pages/search/search',
+        })
+    },
+
     /**
      * 生命周期函数--监听页面初次渲染完成
      */
